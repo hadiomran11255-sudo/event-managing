@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { uploadPhoto } from '../api/eventApi.js';
+import React from 'react';
+
 
 export default function ImageUpload({ label, value, onChange, multiple = false }) {
   const [uploading, setUploading] = useState(false);

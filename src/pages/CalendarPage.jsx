@@ -2,6 +2,8 @@ import { useEffect, useMemo, useState } from 'react';
 import Calendar from 'react-calendar';
 import EventForm from '../components/EventForm.jsx';
 import { getEventByDate, getEvents } from '../api/eventApi.js';
+import React from 'react';
+
 
 const toDateString = (date) => date.toISOString().slice(0, 10);
 

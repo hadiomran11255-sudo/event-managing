@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import SectionCard from './SectionCard.jsx';
 import ImageUpload from './ImageUpload.jsx';
 import { createEvent, deleteEvent, updateEvent } from '../api/eventApi.js';
+import React from 'react';
+
 
 const blankImage = { url: '', filename: '' };
 
